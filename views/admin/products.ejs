@@ -23,8 +23,9 @@
                         <p class="product__description"><%= bob.description %></p>
                     </div>
                     <div class="card__actions">
-                        <form method="post" action="/add-to-cart">
-                        <button type="submit" class="btn">Add to Cart</button>
+                        <a href="/admin/edit-product" class="btn">Edit</a>
+                        <form method="post" action="/admin/edit-product">
+                        <button type="submit" class="btn">Delete</button>
                         </form>
                     </div>
                 </article>
